@@ -1,0 +1,179 @@
+/*menu starts*/
+@media screen and (max-width:767px){
+	.navbar-nav{
+		margin-top: 0px;
+	}
+	.navbar-default .navbar-toggle{
+		margin-top: 20px;
+		border-radius: 0px;
+    border-color: #000;
+    border-width: 1px;
+	}
+	.navbar-toggle-index{
+		margin-top: 10px !important;	
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #000;
+	}
+	.navbar-default .navbar-nav > li{
+    	border:0px solid #fff;
+	}
+.navbar-default .navbar-nav > li > a {
+	font-size: 17px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-brand{
+	padding: 8px 12px;
+}
+.navbar-brand-index{
+	background-color: #fff !important;
+}
+
+}
+
+
+@media screen and (max-width:991px) and (min-width: 768px){
+
+.navbar-header{
+	width: 10%;
+}
+
+.navbar-nav {
+    width: 90%;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li{
+	width: 19%;
+}
+
+.design-process{
+ width: 24% !important;
+}
+
+}
+
+@media screen and (max-width:1200px) and (min-width: 992px){
+
+.navbar-header{
+	width: 8%;
+}
+
+.navbar-nav {
+    width: 92%;
+}
+.navbar-default .navbar-nav > li{
+    width: 20%;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 17px;
+}
+
+}
+@media screen and (max-width:1499px) and (min-width: 1201px){
+
+.navbar-header{
+	width: 6%;
+}
+.navbar-nav {
+    width: 94%;
+}
+.navbar-default .navbar-nav > li{
+    width: 20%;
+}
+
+}
+
+@media screen and (min-width: 1500px){
+
+.navbar-header{
+	width: 5%;
+}
+
+.navbar-nav {
+    width: 95%;
+}
+.navbar-default .navbar-nav > li{
+    width: 20%;
+}
+
+}
+
+
+/*menu ends*/
+
+
+/*other section starts*/
+@media screen and (max-width:767px){
+	#bio{
+		margin-top: 70px;
+	}
+	.bio-contents p,.skills-contents ul li a{ 
+	font-size: 19px;
+	}
+	.skills-contents p{
+	font-size: 22px;
+	}
+}
+
+/*other sections ends*/
+
+
+/*contact us page*/
+
+@media screen and (max-width:767px){
+#contact > .container-fluid > .row > .col-sm-6:first-child{
+	border-right: 0px solid #fff !important;
+	margin-bottom: 0px !important;
+}
+	.inputs{
+		margin-right: 0px !important;
+	}
+	#contact label{
+		font-size: 18px !important;
+	}
+	.email-info{
+	margin: 40px 0px 50px 0px !important;
+
+	}
+
+}
+@media screen and (max-width:630px){
+	#contact label{
+		font-size: 14px !important;
+	}
+#contact button{
+	font-size: 18px !important;
+	padding: 7px 20px !important;
+}
+.inputs{
+	margin-bottom: 25px !important;
+}
+}
+
+/*design process starts*/
+@media screen and (max-width: 767px){
+	.design-content{
+		margin-left: 20px !important;
+	}
+	.design-steps{
+		margin-top: 40px !important;
+	}
+}
+
+
+
+
+/*portfolio starts*/
+@media screen and (max-width: 767px) and (min-width: 600px){
+	.portfolio-content img{
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+	}
+
+}
+
+
